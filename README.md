@@ -3,14 +3,14 @@
 ## Implementation of SLIC Segmentation
 slic_segmentation.py will take any video clip, apply SLIC Segmentation and save the result as GIF file.
 
-![Marked Boundries]('/Users/timschroder/Documents/Uni/Bachelorarbeit/Color_Segmentation/Code/Visualisierung/1.png')
+![Marked Boundries]('labels.png')
 
 
 - change video_path & gif_save_path to your directory
 
 For Label to RGB Boundries
 
-![Image description](/var/folders/hz/qr_lfc3j355gsvsk3hf_cgp40000gn/T/com.apple.Preview/com.apple.Preview.PasteboardItems/100_800_superpixels-1 (verschoben).tiff)
+![Labels to RGB](labels2rgb)
 
 - change line 19 to: labels, markes_boundries, superpixels = segment_video(video_path, n_frames, n_segments, compactness)
 - change line 20 to: save_gif(save_gif(markes_boundries, gif_save_path), gif_save_path)
