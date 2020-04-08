@@ -9,8 +9,8 @@ import numpy as np
 from IPython.display import HTML
 
 # Load Video
-video_path = "/Users/timschroder/Documents/Uni/Bachelorarbeit/Data.nosync/DHF1K_25/002.AVI"
-gif_save_path = "/Users/timschroder/Documents/Uni/Bachelorarbeit/Color_Segmentation/Code/Visualisierung/fly/TEST.gif"
+video_path = #your video_path eg.: ".../DHF1K_25/002.AVI"
+gif_save_path = # your gif_safe_path e.g: ".../test.gif"
 
 def main():
     n_frames = 25
