@@ -10,7 +10,7 @@ slic_segmentation.py will take any video clip, apply SLIC Segmentation and save 
 
 For Label to RGB Boundries
 
-![Labels to RGB](labels2rgb)
+![Labels to RGB](50_800_superpixels.gif)
 
 - change line 19 to: labels, markes_boundries, superpixels = segment_video(video_path, n_frames, n_segments, compactness)
 - change line 20 to: save_gif(save_gif(markes_boundries, gif_save_path), gif_save_path)
