@@ -10,8 +10,8 @@ import numpy as np
 from IPython.display import HTML
 
 # Load Video
-video_path = "/Users/timschroder/Documents/Uni/Bachelorarbeit/project_data/DHF1K_25/002.AVI"
-gif_save_path = "/Users/timschroder/Documents/Uni/Bachelorarbeit/Color_Segmentation/Code/Visualisierung/fly/TEST20.gif"
+video_path = #YOUR_DATA_PATH
+gif_save_path = #YOUR_SAVE_PATH
 
 def main():
     n_frames = 10
